@@ -5,7 +5,7 @@ exports.run = (client, message, params) => {
       .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
       .catch(console.error);
   }else {
-     client.user.setActivity('args-1', { type: 'args-2' })
+     client.user.setActivity('${arg 1}', { type: 'playing' })
       .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
       .catch(console.error);
   }
