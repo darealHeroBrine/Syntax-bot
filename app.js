@@ -55,7 +55,7 @@ client.elevation = message => {
   if (admin_role && message.member.roles.has(admin_role.id)) permlvl = 3;
   const support_role = message.guild.roles.find('name', settings.supportrolename);
   if (support_role && message.member.roles.has(support_role.id)) permlvl = 4;
-  if (message.author.id === settings.ownerid) permlvl = 10;
+  if (message.author.id === process.env.OWNER_ID) permlvl = 10;
   return permlvl;
 };
 
@@ -73,4 +73,4 @@ client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
 
-client.login(settings.token);
+client.login(process.env.BOT_TOKEN);
