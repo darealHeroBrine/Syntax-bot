@@ -19,7 +19,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'activity',
+  name: 'setactivity',
   description: 'set the activity.',
   usage: 'activity [activity]'
 };
