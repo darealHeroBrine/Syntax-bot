@@ -1,0 +1,17 @@
+{
+  "name": "Syntax-Bot",
+  "version": "1.0.0",
+  "description": "This bot is for the syntax discord support group.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Developer",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "discord.js": "^11.3.0",
+    "moment": "^2.20.1",
+    "ms": "^0.7.3"
+  }
+}
