@@ -1,6 +1,6 @@
 const settings = require('../settings.json');
 exports.run = (bot, msg, params = []) => {
-    channel.send("Administrator \n moderator \n Support-Team\(just added\) \n guild owner\(the guild owner\)");
+    if (!bot) return message.send("Administrator \n moderator \n Support-Team\(just added\) \n guild owner\(the guild owner\)");
 };    
 
 
