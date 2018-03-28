@@ -2,7 +2,8 @@
 	"ownerid": "process.env.OWNER_ID",
 	"modrolename": "Moderator",
 	"adminrolename": "Administrators",
-    "supportrolename": "process.env.SUPPORT_TEAM",
+	"supportrolename": "process.env.SUPPORT_TEAM",
+	"botsupport": "process.enve.BOT_SUPPORT",
 	"prefix": "!!",
 	"token": "process.env.BOT_TOKEN"
 }
