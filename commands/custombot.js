@@ -1,7 +1,7 @@
 const settings = require('../settings.json');
 exports.run = (client, message, params) => {
-  message.channel.sendDMchannel('Here is the bot request forum.'),
-  message.channel.sendDmchannel('https://goo.gl/forms/f1l0lu94j78dgpvo1')
+  message.channel.DMchannel.send('Here is the bot request forum.'),
+  message.channel.Dmchannel.send('https://goo.gl/forms/f1l0lu94j78dgpvo1')
 };
 
 exports.conf = {
