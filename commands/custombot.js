@@ -1,13 +1,7 @@
 const settings = require('../settings.json');
 exports.run = (client, message, params) => {
   channel.DMchannel.send('Here is the bot request forum.'),
-  channel.DMchannel.send('https://goo.gl/forms/f1l0lu94j78dgpvo1', {
-  embed: {
-    thumbnail: {
-         url: 'attachment://file.jpg'
-      }
-   }
-})
+  channel.DMchannel.send('https://goo.gl/forms/f1l0lu94j78dgpvo1')
 };
 
 exports.conf = {
