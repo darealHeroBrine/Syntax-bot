@@ -15,7 +15,7 @@ exports.run = async (client, message, args) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setDescription(`**Action:** Warning\n**Target:** ${user.tag}\n**Moderator:** ${message.author.tag}\n**Reason:** ${reason}`)
-    .setFooter(`Case ${caseNum} Guild ${GuildName}`);
+    .setFooter(`Case ${caseNum}`);
   return client.channels.get(modlog.id).send({embed});
 };
 
