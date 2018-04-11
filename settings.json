@@ -1,6 +1,6 @@
 {
 	"ownerid": "process.env.OWNER_ID",
-	"modrolename": "Moderator",
+	"modrolename": "Moderators",
 	"adminrolename": "Administrators",
 	"supportrolename": "process.env.SUPPORT_TEAM",
 	"botsupport": "process.enve.BOT_SUPPORT",
