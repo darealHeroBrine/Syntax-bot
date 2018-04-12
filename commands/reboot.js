@@ -7,15 +7,15 @@ exports.run = async (client, message, args, level) => {// eslint-disable-line no
 };
 
 exports.conf = {
-  enabled: true,
+  enabled: false,
   guildOnly: false,
   aliases: [],
   permLevel: 7
 };
 
-//exports.help = {
-//  name: "reboot",
-//  category: "System",
- // description: "Shuts down the bot. If running under PM2, bot will restart automatically.",
-//  usage: "reboot"
-//};
+exports.help = {
+  name: "reboot",
+  category: "System",
+  description: "Shuts down the bot. If running under PM2, bot will restart automatically.",
+  usage: "reboot"
+};
