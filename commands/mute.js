@@ -35,7 +35,7 @@ exports.run = async (client, message, args) => {
 
 exports.conf = {
   enabled: true,
-  guildOnly: false,
+  guildOnly: true,
   aliases: ['unmute'],
   permLevel: 2
 };
